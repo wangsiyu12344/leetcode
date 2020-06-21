@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * leetcode: 437. 路径总和 III
  * 给定一个二叉树，它的每个结点都存放着一个整数值。
@@ -13,7 +15,7 @@
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 
-class PashSum3 {
+class PathSum3 {
 
     public int pathSum(TreeNode root, int sum) {
         if(root == null) return 0;
