@@ -6,7 +6,7 @@ package leetcode;
  * 具有不同开始位置或结束位置的子串，即使是由相同的字符组成，也会被计为是不同的子串。
  *
  */
-public class PalindromicSubstringsSolution1{
+public class PalindromicSubstringsSolution1 {
     //共有2N-1个可能的回文中心，依次遍历检查。从中间往外。
     public int countSubstrings(String s) {
         int N = s.length();
